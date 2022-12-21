@@ -1,0 +1,100 @@
+<!-- page to log in to account. Brings you here when trying to access account or request page when not logged in -->
+
+<!doctype html>
+<html>
+    
+    <head>
+        
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="headers.css">
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <style>
+            table,
+            th,
+            td {
+                padding: 15px;
+                border: 2;
+                border-color: rgba(212, 188, 155, 0.781);
+                border-style: dashed;
+                border-collapse: collapse;
+                background-color: white;
+                }
+                body {
+                    background-color: #FAF9F6;
+            }
+        </style>
+    
+    </head>
+
+    <body>
+
+        
+
+
+            <!-- Header -->
+            <header class=" border-bottom">
+                <div class="container-fluid">
+                  <a href="about.php">
+                        <img src = "company logo.png" class="auto-style1" style="height: 20%; width: 20%;" ></img>
+                    </a>
+                    <ul class="nav" style="float: right; padding-top: 55px;">
+                        <li class="nav-item"><a href="login.html" class="nav-link link-dark px-2">Login</a></li>
+                        <li class="nav-item"><a href="signup.html" class="nav-link link-dark px-2">Sign up</a></li>
+                    </ul>
+                </div>
+            </header>
+
+            <nav class="py-2 border-bottom" style="background-color:rgb(252, 223, 185) ;">
+                <div class = "container d-flex flex-wrap justify-content-center" style="font-family: Cambria; font-size: larger;">
+                    <ul class="nav">
+                        <li><a href="about.php"  class="nav-link px-2 link-secondary">ABOUT</a></li>
+                        <li><a href="reviews.php" class="nav-link px-2 link-dark">REVIEWS</a></li>
+                        <li><a href="request.html" class="nav-link px-2 link-dark">REQUEST</a></li>
+                        <li><a href="account.php" class="nav-link px-2 link-dark">ACCOUNT</a></li>
+                    </ul>
+                </div>
+            </nav>
+             <!-- Header -->
+    
+        <div align = "center" class="container d-flex flex-wrap justify-content-center " style = "font-size:120%;">     
+
+            <form action="login.php" method="post">
+                <br><br>
+                <center>Email:<br />
+                <br />
+                &nbsp;<input name="email" style="width: 200px; height: 40px" type="email" /><br />
+                <br />
+                Password:<br />
+                <br />
+                <input name="password" style="width: 200px; height: 40px" type="password" /><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <br />
+                <br />
+                <input name="LOGIN" type="submit" value="LOGIN" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input name="reset" style="width: 69px" type="reset" value="RESET" /></form></center>
+                
+        </div>
+        <br>
+        <div align = "center">
+            Please sign up <a href="signup.html">here </a>if this is your first visit.
+        </div>
+
+<!-- loader  -->
+<div class="loader-container">
+    <img src="loader.gif" alt="">
+</div>
+
+
+<!-- custom js file link  -->
+<script src="js.js"></script>
+
+    </body>
+
+</html>

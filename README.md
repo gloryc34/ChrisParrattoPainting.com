@@ -1,2 +1,2 @@
-# ChrisParrattoPainting.com
-**Team oriented project in designing and implementing a new website for ChrisParrattoPainting.com**
+# ChrisParrattoPainting.com--Team-4-Software-Engineering
+Creation of a new website for Chris Parratto's company, ChrisParrattoPainting. 
